@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(174, 178, 212);
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.display{
+    background-color: white;
+    color: black;
+    justify-content: center;
+    width: 700px;
+    height: 80px;
+    margin: 0 200px;
+    border: 3px solid black;
+    border-radius: 10px;
+}

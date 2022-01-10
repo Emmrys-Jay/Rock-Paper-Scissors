@@ -55,7 +55,6 @@ function calcScores(text){
     } else {
         text += `<br> Your score: ${playerScore} Computer score: ${compScore}`;
     }
-    //console.log(text);
     if (compScore === 5){
         text += `<br>You lose the game. Play again by clicking on your next choice`;
         compScore = playerScore = 0;
